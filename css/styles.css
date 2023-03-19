@@ -1,4 +1,4 @@
-/* Principal */
+/*    Principal    */
 
 *{
     padding: 0%;
@@ -49,13 +49,91 @@ input, select {
     display: none;
 }
 
-/* ToDo header */
+/*    ToDo header    */
 .ToDo-container {
     max-width: 450px;
     margin: 3rem ;
     background-image: linear-gradient(to top, #28081D,  #27123B,#5A1D47);
-
     padding: 1.5rem;
+    border-radius: 15px;
+}
+
+.ToDo-container header {
+    text-align: center;
+    padding: 0 1rem 1rem;
+    border-bottom: 1px solid #28081D;
+}
+
+/*    ToDo Form    */
+
+#ToDo-form, #edit-form {
+    padding: 1rem;
+    border-bottom: 1px solid #28081D;;
+}
+
+#ToDo-form p,
+#edit-form p {
+    margin-bottom: .5rem;
+    font-weight: bold;
+}
+
+.form-control {
+    display: flex;
+}
+
+.form-control input{
+    margin-right: 0.3rem;
+}
+
+#cancel-edit-btn{
+    margin-top: 1rem;
 }
 
 
+/*    ToDo toolbar    */
+
+#toolBar {
+    padding: 1rem;
+    border-bottom: 1px solid #28081D;
+    display: flex;
+}
+
+#toolBar h4{
+    margin-bottom: .5rem;
+}
+
+
+#sreach {
+    border-right: 1px solid #28081D;
+    padding-right: 1rem;
+    margin-right: 1rem;
+    width: 65%;
+    display: flex;
+    flex-direction: column;
+}
+
+
+#sreach form {
+   
+    display: flex;
+    
+}
+
+#sreach input{
+    width: 100%;
+    margin-right: 0.3rem ;
+    
+}
+
+
+#filtrar {
+    display: flex;
+    width: 30%;
+    flex-direction: column;
+}
+
+
+#filter-select{
+    flex: 1;
+    background-color: #27123B;
+}
