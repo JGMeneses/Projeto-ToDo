@@ -137,3 +137,35 @@ input, select {
     flex: 1;
     background-color: #27123B;
 }
+
+/*    ToDo List    */
+
+.ToDo {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    padding: 1rem;
+    border-bottom: 1px solid #ddd;
+    transition: .3s;
+} 
+
+.ToDo h3{
+    flex: 1;
+    font-size: 0.9rem;
+}
+
+.ToDo button {
+    margin-left: 0.4rem;
+}
+
+.done {
+    background-color: rgba(72, 92, 77, 0.533)
+}
+
+.done h3 {
+    color: chartreuse;
+    text-decoration: line-through;
+    font-style: italic;
+}
+
+
