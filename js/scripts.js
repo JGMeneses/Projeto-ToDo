@@ -87,3 +87,4 @@ editcancelEditBtn.addEventListener("click", (e) => {
 
     toggleForms();
 });
+
