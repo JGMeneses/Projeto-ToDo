@@ -35,6 +35,7 @@ todo.appendChild(delteBtn)
 todoList.appendChild(todo);
 
 todoInput.value = "";
+todoInput.focus();
 }
 
 // Eventos
@@ -47,4 +48,19 @@ todoForm.addEventListener("submit", (e) => {
     if(inputValue){
         saveTodo(inputValue);
     }
+});
+
+document.addEventListener("click", (e) => {
+    const targetEl = e.target;
+    const parentEl = targetEl.closest("div") //pegando div mais proxima
+
+
+    if(targetEl.classList.contains("confirmar-ToDo")){
+        parentEl.classList.toggle("done");
+    }
+
+    if(targetEl.classList.contains("remove-ToDo")){
+        parentEl.remove();
+    }
+
 });
