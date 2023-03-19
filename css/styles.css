@@ -9,10 +9,12 @@
 }
 
 body {
-    background-image: url("../img/imagemsite2.jpg") ;
-    background-position: center;
+    background-image: url("../img/imagemsite2.jpg");
+    background-position: center top;
     background-size: cover;
+    
 }
+
 
 button {
     background-color: #fbfbfb;
@@ -24,6 +26,7 @@ button {
     display: flex;
     justify-content: center;
     transition: 0.4s;
+    align-items: center;
 }
 
 button:hover{
@@ -73,7 +76,7 @@ input, select {
 
 #ToDo-form p,
 #edit-form p {
-    margin-bottom: .5rem;
+    margin-bottom: 0.5rem;
     font-weight: bold;
 }
 
@@ -144,9 +147,9 @@ input, select {
     display: flex;
     justify-content: space-around;
     align-items: center;
-    padding: 1rem;
+    padding: 1rem 1rem;
     border-bottom: 1px solid #ddd;
-    transition: .3s;
+    transition: 0.3s;
 } 
 
 .ToDo h3{
