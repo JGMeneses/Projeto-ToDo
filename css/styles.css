@@ -4,22 +4,29 @@
     padding: 0%;
     margin: 0%;
     font-family: Helvetica;
-    color: #FFBDE2;
+    color: #c9138f;
     box-sizing: border-box;
     
 }
 
 body {
     background-image: url("../img/imagemsite2.jpg");
-    background-position: center top;
+    background-repeat: no-repeat;
+    background-size:100%;
+    bottom: 0;
+    color: black;
+    left: 0;
+    overflow: auto;
+    padding: 3rem;
     background-size: cover;
+
     
 }
 
 
 button {
     background-color: #fbfbfb;
-    color: #FFBDE2;
+    color: #103f5e;
     border: 2px solid #103f5e;
     padding: .3rem .6rem;
     font-size: 1rem;
@@ -31,7 +38,7 @@ button {
 }
 
 button:hover{
-    background-color: #FFBDE2;
+    background-color: #5A1D47;
     color: #fff;
 }
 
@@ -47,6 +54,7 @@ button i {
 
 input, select {
     padding: 0.25rem 0.5rem;
+    
 }
 
 .hide {
